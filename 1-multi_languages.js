@@ -1,5 +1,7 @@
-console.log('C is fun');
-let statement = "is cool"
-let age = "javaJavaScript is amazing";
-console.log("Python", statement);
-console.log("javaJavaScript is amazing")
+let firstLine = "C is fun";
+let secondLine = "Python is cool";
+let thirdLine = "JavaScript is amazing";
+
+console.log(firstLine)
+console.log(secondLine)
+console.log(thirdLine)
