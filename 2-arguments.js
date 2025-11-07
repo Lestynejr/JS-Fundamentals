@@ -1,6 +1,6 @@
 const args = process.argv.slice(2); // collect command-line arguments
 
-if (args.length === 0) {
+if (args.length == 0) {
   console.log('No argument');
   console.log('Argument found');
   console.log('Arguments found');
@@ -9,4 +9,3 @@ if (args.length === 0) {
 } else {
   console.log('Arguments found');
 }
-
