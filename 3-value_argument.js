@@ -1,6 +1,9 @@
-let age = 35;
-if (age => 30){
-    console.log("Argument")
+#!/usr/bin/node
+
+const arg = process.argv[2];
+
+if (arg === undefined) {
+  console.log('No argument');
 } else {
-    console.log("No Argument")
+  console.log(arg);
 }
